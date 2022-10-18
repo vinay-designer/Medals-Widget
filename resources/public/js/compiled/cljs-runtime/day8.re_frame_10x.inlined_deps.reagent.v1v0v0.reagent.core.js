@@ -106,8 +106,8 @@ return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15838,G__15839
  *   unchanged if it is not a vector.
  */
 day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.as_element = (function day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$core$as_element(var_args){
-var G__15856 = arguments.length;
-switch (G__15856) {
+var G__15862 = arguments.length;
+switch (G__15862) {
 case 1:
 return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.as_element.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -150,8 +150,8 @@ return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.impl.template.adapt
  *   the component, converted to a map.
  */
 day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.reactify_component = (function day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$core$reactify_component(var_args){
-var G__15858 = arguments.length;
-switch (G__15858) {
+var G__15868 = arguments.length;
+switch (G__15868) {
 case 1:
 return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.reactify_component.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -223,8 +223,8 @@ return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.impl.component.reac
  *   React built-in static methods or properties are automatically defined as statics.
  */
 day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.create_class = (function day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$core$create_class(var_args){
-var G__15864 = arguments.length;
-switch (G__15864) {
+var G__15870 = arguments.length;
+switch (G__15870) {
 case 1:
 return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.create_class.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -320,8 +320,8 @@ return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(day8.re_frame_10x.inli
  *   re-rendered, even is their arguments have not changed.
  */
 day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.force_update = (function day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$core$force_update(var_args){
-var G__15867 = arguments.length;
-switch (G__15867) {
+var G__15872 = arguments.length;
+switch (G__15872) {
 case 1:
 return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.force_update.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -392,8 +392,8 @@ return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.impl.component.get_
  *   - Collections of previous types
  */
 day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.class_names = (function day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$core$class_names(var_args){
-var G__15872 = arguments.length;
-switch (G__15872) {
+var G__15884 = arguments.length;
+switch (G__15884) {
 case 0:
 return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.class_names.cljs$core$IFn$_invoke$arity$0();
 
@@ -408,14 +408,14 @@ return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.class_names.cl
 break;
 default:
 var args_arr__5791__auto__ = [];
-var len__5766__auto___15964 = arguments.length;
-var i__5767__auto___15965 = (0);
+var len__5766__auto___15957 = arguments.length;
+var i__5767__auto___15958 = (0);
 while(true){
-if((i__5767__auto___15965 < len__5766__auto___15964)){
-args_arr__5791__auto__.push((arguments[i__5767__auto___15965]));
+if((i__5767__auto___15958 < len__5766__auto___15957)){
+args_arr__5791__auto__.push((arguments[i__5767__auto___15958]));
 
-var G__15966 = (i__5767__auto___15965 + (1));
-i__5767__auto___15965 = G__15966;
+var G__15959 = (i__5767__auto___15958 + (1));
+i__5767__auto___15958 = G__15959;
 continue;
 } else {
 }
@@ -445,13 +445,13 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(day8.re_frame_10x.inlined_d
 }));
 
 /** @this {Function} */
-(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.class_names.cljs$lang$applyTo = (function (seq15869){
-var G__15870 = cljs.core.first(seq15869);
-var seq15869__$1 = cljs.core.next(seq15869);
-var G__15871 = cljs.core.first(seq15869__$1);
-var seq15869__$2 = cljs.core.next(seq15869__$1);
+(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.class_names.cljs$lang$applyTo = (function (seq15878){
+var G__15879 = cljs.core.first(seq15878);
+var seq15878__$1 = cljs.core.next(seq15878);
+var G__15880 = cljs.core.first(seq15878__$1);
+var seq15878__$2 = cljs.core.next(seq15878__$1);
 var self__5751__auto__ = this;
-return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15870,G__15871,seq15869__$2);
+return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15879,G__15880,seq15878__$2);
 }));
 
 (day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.class_names.cljs$lang$maxFixedArity = (2));
@@ -463,8 +463,8 @@ return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15870,G__15871
  *   merging is done.
  */
 day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.merge_props = (function day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$core$merge_props(var_args){
-var G__15899 = arguments.length;
-switch (G__15899) {
+var G__15898 = arguments.length;
+switch (G__15898) {
 case 0:
 return day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.merge_props.cljs$core$IFn$_invoke$arity$0();
 
@@ -516,13 +516,13 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$4(day8.re_frame_10x.inlined_d
 }));
 
 /** @this {Function} */
-(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.merge_props.cljs$lang$applyTo = (function (seq15896){
-var G__15897 = cljs.core.first(seq15896);
-var seq15896__$1 = cljs.core.next(seq15896);
-var G__15898 = cljs.core.first(seq15896__$1);
-var seq15896__$2 = cljs.core.next(seq15896__$1);
+(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.merge_props.cljs$lang$applyTo = (function (seq15895){
+var G__15896 = cljs.core.first(seq15895);
+var seq15895__$1 = cljs.core.next(seq15895);
+var G__15897 = cljs.core.first(seq15895__$1);
+var seq15895__$2 = cljs.core.next(seq15895__$1);
 var self__5751__auto__ = this;
-return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15897,G__15898,seq15896__$2);
+return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__15896,G__15897,seq15895__$2);
 }));
 
 (day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.core.merge_props.cljs$lang$maxFixedArity = (2));
