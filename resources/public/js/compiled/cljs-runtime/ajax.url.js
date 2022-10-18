@@ -7,15 +7,15 @@ return key;
 }
 });
 ajax.url.value_encode = encodeURIComponent;
-ajax.url.key_value_pair_to_str = (function ajax$url$key_value_pair_to_str(p__32127){
-var vec__32128 = p__32127;
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32128,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32128,(1),null);
+ajax.url.key_value_pair_to_str = (function ajax$url$key_value_pair_to_str(p__32095){
+var vec__32096 = p__32095;
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32096,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32096,(1),null);
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(ajax.url.key_encode(k)),"=",cljs.core.str.cljs$core$IFn$_invoke$arity$1((ajax.url.value_encode.cljs$core$IFn$_invoke$arity$1 ? ajax.url.value_encode.cljs$core$IFn$_invoke$arity$1(v) : ajax.url.value_encode.call(null,v)))].join('');
 });
 ajax.url.vec_key_transform_fn = (function ajax$url$vec_key_transform_fn(var_args){
-var G__32139 = arguments.length;
-switch (G__32139) {
+var G__32118 = arguments.length;
+switch (G__32118) {
 case 3:
 return ajax.url.vec_key_transform_fn.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -53,15 +53,15 @@ return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMP
 (ajax.url.vec_key_transform_fn.cljs$lang$maxFixedArity = 3);
 
 ajax.url.to_vec_key_transform = (function ajax$url$to_vec_key_transform(vec_strategy){
-var vec_key_encode = (function (){var G__32143 = (function (){var or__5043__auto__ = vec_strategy;
+var vec_key_encode = (function (){var G__32122 = (function (){var or__5043__auto__ = vec_strategy;
 if(cljs.core.truth_(or__5043__auto__)){
 return or__5043__auto__;
 } else {
 return new cljs.core.Keyword(null,"java","java",1958249105);
 }
 })();
-var G__32143__$1 = (((G__32143 instanceof cljs.core.Keyword))?G__32143.fqn:null);
-switch (G__32143__$1) {
+var G__32122__$1 = (((G__32122 instanceof cljs.core.Keyword))?G__32122.fqn:null);
+switch (G__32122__$1) {
 case "java":
 return (function (k){
 return null;
@@ -79,15 +79,15 @@ return cljs.core.identity;
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32143__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32122__$1)].join('')));
 
 }
 })();
 return ajax.url.vec_key_transform_fn.cljs$core$IFn$_invoke$arity$1(vec_key_encode);
 });
 ajax.url.param_to_key_value_pairs = (function ajax$url$param_to_key_value_pairs(var_args){
-var G__32147 = arguments.length;
-switch (G__32147) {
+var G__32132 = arguments.length;
+switch (G__32132) {
 case 3:
 return ajax.url.param_to_key_value_pairs.cljs$core$IFn$_invoke$arity$3((arguments[(0)]),(arguments[(1)]),(arguments[(2)]));
 
@@ -106,10 +106,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 });
 
-(ajax.url.param_to_key_value_pairs.cljs$core$IFn$_invoke$arity$3 = (function (vec_key_transform,prefix,p__32155){
-var vec__32156 = p__32155;
-var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32156,(0),null);
-var value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32156,(1),null);
+(ajax.url.param_to_key_value_pairs.cljs$core$IFn$_invoke$arity$3 = (function (vec_key_transform,prefix,p__32134){
+var vec__32135 = p__32134;
+var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32135,(0),null);
+var value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32135,(1),null);
 
 var k1 = ajax.url.key_encode(key);
 var new_key = (cljs.core.truth_(prefix)?(cljs.core.truth_(key)?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),"[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(k1),"]"].join(''):prefix):k1);
@@ -135,10 +135,10 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 }));
 
 (ajax.url.param_to_key_value_pairs.cljs$core$IFn$_invoke$arity$2 = (function (vec_key_transform,prefix){
-return (function (p__32161){
-var vec__32162 = p__32161;
-var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32162,(0),null);
-var value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32162,(1),null);
+return (function (p__32140){
+var vec__32141 = p__32140;
+var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32141,(0),null);
+var value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32141,(1),null);
 
 var k1 = ajax.url.key_encode(key);
 var new_key = (cljs.core.truth_(prefix)?(cljs.core.truth_(key)?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),"[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(k1),"]"].join(''):prefix):k1);
@@ -165,10 +165,10 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 }));
 
 (ajax.url.param_to_key_value_pairs.cljs$core$IFn$_invoke$arity$1 = (function (vec_key_transform){
-return (function (prefix,p__32176){
-var vec__32177 = p__32176;
-var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32177,(0),null);
-var value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32177,(1),null);
+return (function (prefix,p__32151){
+var vec__32152 = p__32151;
+var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32152,(0),null);
+var value = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__32152,(1),null);
 
 var k1 = ajax.url.key_encode(key);
 var new_key = (cljs.core.truth_(prefix)?(cljs.core.truth_(key)?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(prefix),"[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(k1),"]"].join(''):prefix):k1);
@@ -197,8 +197,8 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 (ajax.url.param_to_key_value_pairs.cljs$lang$maxFixedArity = 3);
 
 ajax.url.params_to_str = (function ajax$url$params_to_str(var_args){
-var G__32191 = arguments.length;
-switch (G__32191) {
+var G__32159 = arguments.length;
+switch (G__32159) {
 case 2:
 return ajax.url.params_to_str.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -231,8 +231,8 @@ return clojure.string.join.cljs$core$IFn$_invoke$arity$2("&",cljs.core.map.cljs$
  * The request format for simple POST and GET.
  */
 ajax.url.url_request_format = (function ajax$url$url_request_format(var_args){
-var G__32194 = arguments.length;
-switch (G__32194) {
+var G__32162 = arguments.length;
+switch (G__32162) {
 case 0:
 return ajax.url.url_request_format.cljs$core$IFn$_invoke$arity$0();
 
@@ -251,10 +251,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 return ajax.url.url_request_format.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 }));
 
-(ajax.url.url_request_format.cljs$core$IFn$_invoke$arity$1 = (function (p__32196){
-var map__32197 = p__32196;
-var map__32197__$1 = cljs.core.__destructure_map(map__32197);
-var vec_strategy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32197__$1,new cljs.core.Keyword(null,"vec-strategy","vec-strategy",1843221372));
+(ajax.url.url_request_format.cljs$core$IFn$_invoke$arity$1 = (function (p__32164){
+var map__32165 = p__32164;
+var map__32165__$1 = cljs.core.__destructure_map(map__32165);
+var vec_strategy = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__32165__$1,new cljs.core.Keyword(null,"vec-strategy","vec-strategy",1843221372));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"write","write",-1857649168),ajax.util.to_utf8_writer(ajax.url.params_to_str.cljs$core$IFn$_invoke$arity$1(vec_strategy)),new cljs.core.Keyword(null,"content-type","content-type",-508222634),"application/x-www-form-urlencoded; charset=utf-8"], null);
 }));
 

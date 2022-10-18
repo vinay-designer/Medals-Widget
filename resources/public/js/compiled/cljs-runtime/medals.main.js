@@ -4,12 +4,12 @@ return cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("medals.events","change-selected-sort","medals.events/change-selected-sort",693596416),new cljs.core.Keyword(null,"color_name","color_name",-1895376063).cljs$core$IFn$_invoke$arity$1(color)], null));
 })], null)], null)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),color], null));
 });
-medals.main.country_medals = (function medals$main$country_medals(p__16013){
-var map__16014 = p__16013;
-var map__16014__$1 = cljs.core.__destructure_map(map__16014);
-var country = map__16014__$1;
-var code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__16014__$1,new cljs.core.Keyword(null,"code","code",1586293142));
-var index = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__16014__$1,new cljs.core.Keyword(null,"index","index",-1531685915));
+medals.main.country_medals = (function medals$main$country_medals(p__34793){
+var map__34794 = p__34793;
+var map__34794__$1 = cljs.core.__destructure_map(map__34794);
+var country = map__34794__$1;
+var code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34794__$1,new cljs.core.Keyword(null,"code","code",1586293142));
+var index = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34794__$1,new cljs.core.Keyword(null,"index","index",-1531685915));
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"tr","tr",-1424774646),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"td","td",1479933353),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"col-span","col-span",-232603210),(10)], null),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),"medal-widget_country-info"], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),index], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"img","img",1442687358),new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"alt","alt",-3214426),code,new cljs.core.Keyword(null,"width","width",-384071477),(50),new cljs.core.Keyword(null,"height","height",1025178622),(30),new cljs.core.Keyword(null,"src","src",-1651076051),["https://countryflagsapi.com/png/",cljs.core.str.cljs$core$IFn$_invoke$arity$1(code)].join('')], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"span","span",1394872991),code], null)], null)], null),cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (key){
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"td","td",1479933353),cljs.core.get.cljs$core$IFn$_invoke$arity$2(country,key)], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),key], null));
 }),cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (key){

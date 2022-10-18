@@ -22,18 +22,18 @@ if(((cljs.core.not(escape_QMARK_)) && ((c === "\"")))){
 return rewrite_clj.parser.string.flush_into(lines,buf);
 } else {
 if((c === "\n")){
-var G__23489 = escape_QMARK_;
-var G__23490 = rewrite_clj.parser.string.flush_into(lines,buf);
-escape_QMARK_ = G__23489;
-lines = G__23490;
+var G__23481 = escape_QMARK_;
+var G__23482 = rewrite_clj.parser.string.flush_into(lines,buf);
+escape_QMARK_ = G__23481;
+lines = G__23482;
 continue;
 } else {
 buf.append(c);
 
-var G__23491 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
-var G__23492 = lines;
-escape_QMARK_ = G__23491;
-lines = G__23492;
+var G__23483 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
+var G__23484 = lines;
+escape_QMARK_ = G__23483;
+lines = G__23484;
 continue;
 
 }
@@ -45,15 +45,15 @@ break;
 }
 });
 rewrite_clj.parser.string.parse_string = (function rewrite_clj$parser$string$parse_string(reader){
-var G__23480 = rewrite_clj.parser.string.read_string_data(reader);
-return (rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1(G__23480) : rewrite_clj.node.string_node.call(null,G__23480));
+var G__23478 = rewrite_clj.parser.string.read_string_data(reader);
+return (rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1(G__23478) : rewrite_clj.node.string_node.call(null,G__23478));
 });
 rewrite_clj.parser.string.parse_regex = (function rewrite_clj$parser$string$parse_regex(reader){
 var lines = rewrite_clj.parser.string.read_string_data(reader);
 var regex = clojure.string.join.cljs$core$IFn$_invoke$arity$2("\n",lines);
-var G__23482 = cljs.core.re_pattern(regex);
-var G__23483 = ["#\"",regex,"\""].join('');
-return (rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2(G__23482,G__23483) : rewrite_clj.node.token_node.call(null,G__23482,G__23483));
+var G__23479 = cljs.core.re_pattern(regex);
+var G__23480 = ["#\"",regex,"\""].join('');
+return (rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2 ? rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$2(G__23479,G__23480) : rewrite_clj.node.token_node.call(null,G__23479,G__23480));
 });
 
 //# sourceMappingURL=rewrite_clj.parser.string.js.map

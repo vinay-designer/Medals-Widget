@@ -31,12 +31,12 @@ if(typeof dashed === 'string'){
 return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
-var vec__19257 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
-var seq__19258 = cljs.core.seq(vec__19257);
-var first__19259 = cljs.core.first(seq__19258);
-var seq__19258__$1 = cljs.core.next(seq__19258);
-var start = first__19259;
-var parts = seq__19258__$1;
+var vec__19260 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str,/-/);
+var seq__19261 = cljs.core.seq(vec__19260);
+var first__19262 = cljs.core.first(seq__19261);
+var seq__19261__$1 = cljs.core.next(seq__19261);
+var start = first__19262;
+var parts = seq__19261__$1;
 if(cljs.core.truth_((reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.util.dont_camel_case.cljs$core$IFn$_invoke$arity$1(start) : reagent.impl.util.dont_camel_case.call(null,start)))){
 return name_str;
 } else {
@@ -50,12 +50,12 @@ return dashed;
 } else {
 var name_str = cljs.core.name(dashed);
 var name_str__$1 = clojure.string.replace(name_str,/(unsafe|UNSAFE)[-_]/,"UNSAFE_");
-var vec__19260 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
-var seq__19261 = cljs.core.seq(vec__19260);
-var first__19262 = cljs.core.first(seq__19261);
-var seq__19261__$1 = cljs.core.next(seq__19261);
-var start = first__19262;
-var parts = seq__19261__$1;
+var vec__19263 = clojure.string.split.cljs$core$IFn$_invoke$arity$2(name_str__$1,/-/);
+var seq__19264 = cljs.core.seq(vec__19263);
+var first__19265 = cljs.core.first(seq__19264);
+var seq__19264__$1 = cljs.core.next(seq__19264);
+var start = first__19265;
+var parts = seq__19264__$1;
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.str,start,cljs.core.map.cljs$core$IFn$_invoke$arity$2(reagent.impl.util.capitalize,parts));
 }
 });
@@ -125,8 +125,8 @@ this.cljs$lang$protocol_mask$partition1$ = 0;
 (reagent.impl.util.PartialFn.prototype.call = (function (unused__10311__auto__){
 var self__ = this;
 var self__ = this;
-var G__19265 = (arguments.length - (1));
-switch (G__19265) {
+var G__19268 = (arguments.length - (1));
+switch (G__19268) {
 case (0):
 return self__.cljs$core$IFn$_invoke$arity$0();
 
@@ -221,10 +221,10 @@ throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(
 }
 }));
 
-(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args19264){
+(reagent.impl.util.PartialFn.prototype.apply = (function (self__,args19267){
 var self__ = this;
 var self____$1 = this;
-return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args19264)));
+return self____$1.call.apply(self____$1,[self____$1].concat(cljs.core.aclone(args19267)));
 }));
 
 (reagent.impl.util.PartialFn.prototype.cljs$core$IFn$_invoke$arity$0 = (function (){
@@ -627,10 +627,10 @@ var i = (0);
 while(true){
 if((i < len)){
 var k = (ks[i]);
-var G__19308 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),reagent.impl.util.goog$module$goog$object.get(o,k));
-var G__19309 = (i + (1));
-m = G__19308;
-i = G__19309;
+var G__19314 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(m,cljs.core.keyword.cljs$core$IFn$_invoke$arity$1(k),reagent.impl.util.goog$module$goog$object.get(o,k));
+var G__19315 = (i + (1));
+m = G__19314;
+i = G__19315;
 continue;
 } else {
 return m;
@@ -709,14 +709,14 @@ return x;
 });
 reagent.impl.util.hiccup_err = (function reagent$impl$util$hiccup_err(var_args){
 var args__5772__auto__ = [];
-var len__5766__auto___19313 = arguments.length;
-var i__5767__auto___19314 = (0);
+var len__5766__auto___19319 = arguments.length;
+var i__5767__auto___19320 = (0);
 while(true){
-if((i__5767__auto___19314 < len__5766__auto___19313)){
-args__5772__auto__.push((arguments[i__5767__auto___19314]));
+if((i__5767__auto___19320 < len__5766__auto___19319)){
+args__5772__auto__.push((arguments[i__5767__auto___19320]));
 
-var G__19316 = (i__5767__auto___19314 + (1));
-i__5767__auto___19314 = G__19316;
+var G__19321 = (i__5767__auto___19320 + (1));
+i__5767__auto___19320 = G__19321;
 continue;
 } else {
 }

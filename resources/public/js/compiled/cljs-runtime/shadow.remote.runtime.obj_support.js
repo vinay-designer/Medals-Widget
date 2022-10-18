@@ -32,18 +32,18 @@ var this__5340__auto____$1 = this;
 return this__5340__auto____$1.cljs$core$ILookup$_lookup$arity$3(null,k__5341__auto__,null);
 }));
 
-(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__5342__auto__,k31504,else__5343__auto__){
+(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$ILookup$_lookup$arity$3 = (function (this__5342__auto__,k31445,else__5343__auto__){
 var self__ = this;
 var this__5342__auto____$1 = this;
-var G__31514 = k31504;
-var G__31514__$1 = (((G__31514 instanceof cljs.core.Keyword))?G__31514.fqn:null);
-switch (G__31514__$1) {
+var G__31475 = k31445;
+var G__31475__$1 = (((G__31475 instanceof cljs.core.Keyword))?G__31475.fqn:null);
+switch (G__31475__$1) {
 case "obj":
 return self__.obj;
 
 break;
 default:
-return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k31504,else__5343__auto__);
+return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k31445,else__5343__auto__);
 
 }
 }));
@@ -51,10 +51,10 @@ return cljs.core.get.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k31504,else__
 (shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IKVReduce$_kv_reduce$arity$3 = (function (this__5360__auto__,f__5361__auto__,init__5362__auto__){
 var self__ = this;
 var this__5360__auto____$1 = this;
-return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__5363__auto__,p__31515){
-var vec__31516 = p__31515;
-var k__5364__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31516,(0),null);
-var v__5365__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31516,(1),null);
+return cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (ret__5363__auto__,p__31489){
+var vec__31494 = p__31489;
+var k__5364__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31494,(0),null);
+var v__5365__auto__ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__31494,(1),null);
 return (f__5361__auto__.cljs$core$IFn$_invoke$arity$3 ? f__5361__auto__.cljs$core$IFn$_invoke$arity$3(ret__5363__auto__,k__5364__auto__,v__5365__auto__) : f__5361__auto__.call(null,ret__5363__auto__,k__5364__auto__,v__5365__auto__));
 }),init__5362__auto__,this__5360__auto____$1);
 }));
@@ -68,10 +68,10 @@ return cljs.core.pr_sequential_writer(writer__5356__auto__,cljs.core.pr_writer,"
 return cljs.core.pr_sequential_writer(writer__5356__auto__,pr_pair__5358__auto__,"#shadow.remote.runtime.obj-support.Reference{",", ","}",opts__5357__auto__,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.PersistentVector(null,2,(5),cljs.core.PersistentVector.EMPTY_NODE,[new cljs.core.Keyword(null,"obj","obj",981763962),self__.obj],null))], null),self__.__extmap));
 }));
 
-(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__31503){
+(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IIterable$_iterator$arity$1 = (function (G__31444){
 var self__ = this;
-var G__31503__$1 = this;
-return (new cljs.core.RecordIter((0),G__31503__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"obj","obj",981763962)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
+var G__31444__$1 = this;
+return (new cljs.core.RecordIter((0),G__31444__$1,1,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"obj","obj",981763962)], null),(cljs.core.truth_(self__.__extmap)?cljs.core._iterator(self__.__extmap):cljs.core.nil_iter())));
 }));
 
 (shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IMeta$_meta$arity$1 = (function (this__5338__auto__){
@@ -108,10 +108,10 @@ return h__5152__auto____$1;
 }
 }));
 
-(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this31505,other31506){
+(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IEquiv$_equiv$arity$2 = (function (this31446,other31447){
 var self__ = this;
-var this31505__$1 = this;
-return (((!((other31506 == null)))) && ((((this31505__$1.constructor === other31506.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this31505__$1.obj,other31506.obj)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this31505__$1.__extmap,other31506.__extmap)))))));
+var this31446__$1 = this;
+return (((!((other31447 == null)))) && ((((this31446__$1.constructor === other31447.constructor)) && (((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this31446__$1.obj,other31447.obj)) && (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(this31446__$1.__extmap,other31447.__extmap)))))));
 }));
 
 (shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IMap$_dissoc$arity$2 = (function (this__5350__auto__,k__5351__auto__){
@@ -124,10 +124,10 @@ return (new shadow.remote.runtime.obj_support.Reference(self__.obj,self__.__meta
 }
 }));
 
-(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__5347__auto__,k31504){
+(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IAssociative$_contains_key_QMARK_$arity$2 = (function (this__5347__auto__,k31445){
 var self__ = this;
 var this__5347__auto____$1 = this;
-var G__31526 = k31504;
+var G__31526 = k31445;
 var G__31526__$1 = (((G__31526 instanceof cljs.core.Keyword))?G__31526.fqn:null);
 switch (G__31526__$1) {
 case "obj":
@@ -135,20 +135,20 @@ return true;
 
 break;
 default:
-return cljs.core.contains_QMARK_(self__.__extmap,k31504);
+return cljs.core.contains_QMARK_(self__.__extmap,k31445);
 
 }
 }));
 
-(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__5348__auto__,k__5349__auto__,G__31503){
+(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IAssociative$_assoc$arity$3 = (function (this__5348__auto__,k__5349__auto__,G__31444){
 var self__ = this;
 var this__5348__auto____$1 = this;
 var pred__31527 = cljs.core.keyword_identical_QMARK_;
 var expr__31528 = k__5349__auto__;
 if(cljs.core.truth_((pred__31527.cljs$core$IFn$_invoke$arity$2 ? pred__31527.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"obj","obj",981763962),expr__31528) : pred__31527.call(null,new cljs.core.Keyword(null,"obj","obj",981763962),expr__31528)))){
-return (new shadow.remote.runtime.obj_support.Reference(G__31503,self__.__meta,self__.__extmap,null));
+return (new shadow.remote.runtime.obj_support.Reference(G__31444,self__.__meta,self__.__extmap,null));
 } else {
-return (new shadow.remote.runtime.obj_support.Reference(self__.obj,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__5349__auto__,G__31503),null));
+return (new shadow.remote.runtime.obj_support.Reference(self__.obj,self__.__meta,cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(self__.__extmap,k__5349__auto__,G__31444),null));
 }
 }));
 
@@ -158,10 +158,10 @@ var this__5353__auto____$1 = this;
 return cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(new cljs.core.MapEntry(new cljs.core.Keyword(null,"obj","obj",981763962),self__.obj,null))], null),self__.__extmap));
 }));
 
-(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__5339__auto__,G__31503){
+(shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$IWithMeta$_with_meta$arity$2 = (function (this__5339__auto__,G__31444){
 var self__ = this;
 var this__5339__auto____$1 = this;
-return (new shadow.remote.runtime.obj_support.Reference(self__.obj,G__31503,self__.__extmap,self__.__hash));
+return (new shadow.remote.runtime.obj_support.Reference(self__.obj,G__31444,self__.__extmap,self__.__hash));
 }));
 
 (shadow.remote.runtime.obj_support.Reference.prototype.cljs$core$ICollection$_conj$arity$2 = (function (this__5345__auto__,entry__5346__auto__){
@@ -198,15 +198,15 @@ return (new shadow.remote.runtime.obj_support.Reference(obj,null,null,null));
 /**
  * Factory function for shadow.remote.runtime.obj-support/Reference, taking a map of keywords to field values.
  */
-shadow.remote.runtime.obj_support.map__GT_Reference = (function shadow$remote$runtime$obj_support$map__GT_Reference(G__31513){
-var extmap__5382__auto__ = (function (){var G__31530 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__31513,new cljs.core.Keyword(null,"obj","obj",981763962));
-if(cljs.core.record_QMARK_(G__31513)){
+shadow.remote.runtime.obj_support.map__GT_Reference = (function shadow$remote$runtime$obj_support$map__GT_Reference(G__31457){
+var extmap__5382__auto__ = (function (){var G__31530 = cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(G__31457,new cljs.core.Keyword(null,"obj","obj",981763962));
+if(cljs.core.record_QMARK_(G__31457)){
 return cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentArrayMap.EMPTY,G__31530);
 } else {
 return G__31530;
 }
 })();
-return (new shadow.remote.runtime.obj_support.Reference(new cljs.core.Keyword(null,"obj","obj",981763962).cljs$core$IFn$_invoke$arity$1(G__31513),null,cljs.core.not_empty(extmap__5382__auto__),null));
+return (new shadow.remote.runtime.obj_support.Reference(new cljs.core.Keyword(null,"obj","obj",981763962).cljs$core$IFn$_invoke$arity$1(G__31457),null,cljs.core.not_empty(extmap__5382__auto__),null));
 });
 
 shadow.remote.runtime.obj_support.obj_ref = (function shadow$remote$runtime$obj_support$obj_ref(obj){
@@ -465,12 +465,12 @@ var next = cljs.core.first(tail__$1);
 if((next == null)){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [null,realized__$1], null);
 } else {
-var G__31687 = cljs.core.rest(tail__$1);
-var G__31688 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(realized__$1,next);
-var G__31689 = (missing__$1 - (1));
-tail__$1 = G__31687;
-realized__$1 = G__31688;
-missing__$1 = G__31689;
+var G__31708 = cljs.core.rest(tail__$1);
+var G__31709 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(realized__$1,next);
+var G__31710 = (missing__$1 - (1));
+tail__$1 = G__31708;
+realized__$1 = G__31709;
+missing__$1 = G__31710;
 continue;
 }
 }

@@ -62,12 +62,12 @@ while(true){
 var temp__5802__auto__ = cljs.core.first(order__$1);
 if(cljs.core.truth_(temp__5802__auto__)){
 var sub_type = temp__5802__auto__;
-var G__21919 = (exp - (1));
-var G__21920 = (total + (day8.re_frame_10x.panels.subs.subs.sub_type__GT_value(sub_type) * Math.pow((10),exp)));
-var G__21921 = cljs.core.rest(order__$1);
-exp = G__21919;
-total = G__21920;
-order__$1 = G__21921;
+var G__21915 = (exp - (1));
+var G__21916 = (total + (day8.re_frame_10x.panels.subs.subs.sub_type__GT_value(sub_type) * Math.pow((10),exp)));
+var G__21917 = cljs.core.rest(order__$1);
+exp = G__21915;
+total = G__21916;
+order__$1 = G__21917;
 continue;
 } else {
 return total;

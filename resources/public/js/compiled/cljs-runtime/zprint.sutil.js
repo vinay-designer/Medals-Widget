@@ -59,8 +59,8 @@ var sloc = sexpr;
 var i = (0);
 while(true){
 if(cljs.core.truth_(sloc)){
-if(cljs.core.truth_((function (){var G__24074 = cljs.core.first(sloc);
-return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(G__24074) : zthing_QMARK_.call(null,G__24074));
+if(cljs.core.truth_((function (){var G__24060 = cljs.core.first(sloc);
+return (zthing_QMARK_.cljs$core$IFn$_invoke$arity$1 ? zthing_QMARK_.cljs$core$IFn$_invoke$arity$1(G__24060) : zthing_QMARK_.call(null,G__24060));
 })())){
 return i;
 } else {
@@ -219,8 +219,8 @@ return null;
  *   anything, so there isn't a particularly good sentinal here.
  */
 zprint.sutil.sobj_to_vec = (function zprint$sutil$sobj_to_vec(var_args){
-var G__24084 = arguments.length;
-switch (G__24084) {
+var G__24079 = arguments.length;
+switch (G__24079) {
 case 2:
 return zprint.sutil.sobj_to_vec.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -326,33 +326,33 @@ return null;
 if(cljs.core.truth_(current_ns)){
 if(cljs.core.truth_(ns__$1)){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(ns__$1,current_ns)){
-var G__24263 = ns__$1;
-var G__24264 = cljs.core.next(pair_seq__$1);
-var G__24265 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
-ns__$1 = G__24263;
-pair_seq__$1 = G__24264;
-out = G__24265;
+var G__24257 = ns__$1;
+var G__24258 = cljs.core.next(pair_seq__$1);
+var G__24259 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
+ns__$1 = G__24257;
+pair_seq__$1 = G__24258;
+out = G__24259;
 continue;
 } else {
 return null;
 }
 } else {
-var G__24266 = current_ns;
-var G__24267 = cljs.core.next(pair_seq__$1);
-var G__24268 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
-ns__$1 = G__24266;
-pair_seq__$1 = G__24267;
-out = G__24268;
+var G__24260 = current_ns;
+var G__24261 = cljs.core.next(pair_seq__$1);
+var G__24262 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,cljs.core.cons(strip_ns(k),rest_of_pair));
+ns__$1 = G__24260;
+pair_seq__$1 = G__24261;
+out = G__24262;
 continue;
 }
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(pair),(1))){
-var G__24269 = ns__$1;
-var G__24270 = cljs.core.next(pair_seq__$1);
-var G__24271 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
-ns__$1 = G__24269;
-pair_seq__$1 = G__24270;
-out = G__24271;
+var G__24263 = ns__$1;
+var G__24264 = cljs.core.next(pair_seq__$1);
+var G__24265 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(out,pair);
+ns__$1 = G__24263;
+pair_seq__$1 = G__24264;
+out = G__24265;
 continue;
 } else {
 return null;

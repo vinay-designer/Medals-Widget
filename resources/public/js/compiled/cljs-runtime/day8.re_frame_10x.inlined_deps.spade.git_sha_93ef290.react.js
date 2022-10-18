@@ -31,14 +31,14 @@ return day8.re_frame_10x.inlined_deps.spade.git_sha_93ef290.react.context._curre
  */
 day8.re_frame_10x.inlined_deps.spade.git_sha_93ef290.react.with_style_container = (function day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_style_container(var_args){
 var args__5772__auto__ = [];
-var len__5766__auto___19155 = arguments.length;
-var i__5767__auto___19156 = (0);
+var len__5766__auto___19159 = arguments.length;
+var i__5767__auto___19160 = (0);
 while(true){
-if((i__5767__auto___19156 < len__5766__auto___19155)){
-args__5772__auto__.push((arguments[i__5767__auto___19156]));
+if((i__5767__auto___19160 < len__5766__auto___19159)){
+args__5772__auto__.push((arguments[i__5767__auto___19160]));
 
-var G__19157 = (i__5767__auto___19156 + (1));
-i__5767__auto___19156 = G__19157;
+var G__19161 = (i__5767__auto___19160 + (1));
+i__5767__auto___19160 = G__19161;
 continue;
 } else {
 }
@@ -72,14 +72,14 @@ return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__19152,seq19151
  */
 day8.re_frame_10x.inlined_deps.spade.git_sha_93ef290.react.with_dom = (function day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom(var_args){
 var args__5772__auto__ = [];
-var len__5766__auto___19158 = arguments.length;
-var i__5767__auto___19159 = (0);
+var len__5766__auto___19163 = arguments.length;
+var i__5767__auto___19164 = (0);
 while(true){
-if((i__5767__auto___19159 < len__5766__auto___19158)){
-args__5772__auto__.push((arguments[i__5767__auto___19159]));
+if((i__5767__auto___19164 < len__5766__auto___19163)){
+args__5772__auto__.push((arguments[i__5767__auto___19164]));
 
-var G__19161 = (i__5767__auto___19159 + (1));
-i__5767__auto___19159 = G__19161;
+var G__19165 = (i__5767__auto___19164 + (1));
+i__5767__auto___19164 = G__19165;
 continue;
 } else {
 }
@@ -99,15 +99,15 @@ return cljs.core.into.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVect
 var day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render = function (_,var_args){
 var children = null;
 if (arguments.length > 1) {
-var G__19163__i = 0, G__19163__a = new Array(arguments.length -  1);
-while (G__19163__i < G__19163__a.length) {G__19163__a[G__19163__i] = arguments[G__19163__i + 1]; ++G__19163__i;}
-  children = new cljs.core.IndexedSeq(G__19163__a,0,null);
+var G__19166__i = 0, G__19166__a = new Array(arguments.length -  1);
+while (G__19166__i < G__19166__a.length) {G__19166__a[G__19166__i] = arguments[G__19166__i + 1]; ++G__19166__i;}
+  children = new cljs.core.IndexedSeq(G__19166__a,0,null);
 } 
 return day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render__delegate.call(this,_,children);};
 day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render.cljs$lang$maxFixedArity = 1;
-day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render.cljs$lang$applyTo = (function (arglist__19164){
-var _ = cljs.core.first(arglist__19164);
-var children = cljs.core.rest(arglist__19164);
+day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render.cljs$lang$applyTo = (function (arglist__19167){
+var _ = cljs.core.first(arglist__19167);
+var children = cljs.core.rest(arglist__19167);
 return day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render__delegate(_,children);
 });
 day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render.cljs$core$IFn$_invoke$arity$variadic = day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_render__delegate;
@@ -119,11 +119,11 @@ return day8$re_frame_10x$inlined_deps$spade$git_sha_93ef290$react$with_dom_rende
 (day8.re_frame_10x.inlined_deps.spade.git_sha_93ef290.react.with_dom.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(day8.re_frame_10x.inlined_deps.spade.git_sha_93ef290.react.with_dom.cljs$lang$applyTo = (function (seq19153){
-var G__19154 = cljs.core.first(seq19153);
-var seq19153__$1 = cljs.core.next(seq19153);
+(day8.re_frame_10x.inlined_deps.spade.git_sha_93ef290.react.with_dom.cljs$lang$applyTo = (function (seq19157){
+var G__19158 = cljs.core.first(seq19157);
+var seq19157__$1 = cljs.core.next(seq19157);
 var self__5751__auto__ = this;
-return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__19154,seq19153__$1);
+return self__5751__auto__.cljs$core$IFn$_invoke$arity$variadic(G__19158,seq19157__$1);
 }));
 
 
