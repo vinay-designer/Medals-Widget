@@ -1,16 +1,12 @@
 (ns medals.core
   (:require
+   [day8.re-frame.http-fx]
+   [medals.config :as config]
+   [medals.events :as events]
+   [medals.views :as views]
    [reagent.dom :as rdom]
    [re-frame.core :as re-frame]
-   [medals.events :as events]
-   [day8.re-frame.http-fx]
-   [medals.views :as views]
-   [medals.config :as config]))
-
-
-(defn dev-setup []
-  (when config/debug?
-    (println "dev mode")))
+ )) 
 
 
 (defn ^:dev/after-load mount-root []
@@ -19,8 +15,6 @@
     (rdom/unmount-component-at-node root-el)
     (rdom/render [views/main-panel] root-el)))
 
-    
 (defn init []
   (re-frame/dispatch-sync [::events/initialize-db])
-  (dev-setup)
   (mount-root))

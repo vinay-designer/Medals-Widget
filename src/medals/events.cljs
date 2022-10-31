@@ -2,8 +2,6 @@
   (:require
    [re-frame.core :as re-frame]
    [medals.db :as db]
-   [ajax.core :as ajax]
-   [medals.constants :refer [COUNTRIES]]
    [day8.re-frame.tracing :refer-macros [fn-traced]]))
 
 

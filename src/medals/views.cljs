@@ -1,6 +1,6 @@
 (ns medals.views
   (:require
-   [medals.main :refer [render-medal-widget]]))
+   [medals.main :as render-medal-widget]))
 
 (defn main-panel []
-  [render-medal-widget])
+  [render-medal-widget/render-medal-widget])
