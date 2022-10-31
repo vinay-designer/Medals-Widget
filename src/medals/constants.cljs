@@ -1,16 +1,17 @@
 (ns medals.constants)
 
 
-(def MEDALCOLORS [{:color_name :gold :hex_code "#FFC527"} ,
-                  {:color_name :silver :hex_code "#D3D3D3"},
-                  {:color_name :bronze :hex_code "#CD7F32"}])
+(def colors [{:color_name :gold :hex_code "bg-gold"} ,
+                  {:color_name :silver :hex_code "bg-silver"},
+                  {:color_name :bronze :hex_code "bg-bronze"}])
 
-(def SORTVALUES {:gold "gold"
+
+(def sort-values {:gold "gold"
                  :silver "silver"
                  :bronze "bronze"
                  :total "total"})
 
-(def COUNTRIESMEDALCOLORS {:silver  "silver"
+(def default-colors {:silver  "silver"
                            :gold "gold"
                            :bronze "bronze"})
 
