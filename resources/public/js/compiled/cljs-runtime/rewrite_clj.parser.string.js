@@ -22,18 +22,18 @@ if(((cljs.core.not(escape_QMARK_)) && ((c === "\"")))){
 return rewrite_clj.parser.string.flush_into(lines,buf);
 } else {
 if((c === "\n")){
-var G__23481 = escape_QMARK_;
-var G__23482 = rewrite_clj.parser.string.flush_into(lines,buf);
-escape_QMARK_ = G__23481;
-lines = G__23482;
+var G__23484 = escape_QMARK_;
+var G__23485 = rewrite_clj.parser.string.flush_into(lines,buf);
+escape_QMARK_ = G__23484;
+lines = G__23485;
 continue;
 } else {
 buf.append(c);
 
-var G__23483 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
-var G__23484 = lines;
-escape_QMARK_ = G__23483;
-lines = G__23484;
+var G__23486 = ((cljs.core.not(escape_QMARK_)) && ((c === "\\")));
+var G__23487 = lines;
+escape_QMARK_ = G__23486;
+lines = G__23487;
 continue;
 
 }
@@ -45,8 +45,8 @@ break;
 }
 });
 rewrite_clj.parser.string.parse_string = (function rewrite_clj$parser$string$parse_string(reader){
-var G__23478 = rewrite_clj.parser.string.read_string_data(reader);
-return (rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1(G__23478) : rewrite_clj.node.string_node.call(null,G__23478));
+var G__23477 = rewrite_clj.parser.string.read_string_data(reader);
+return (rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.string_node.cljs$core$IFn$_invoke$arity$1(G__23477) : rewrite_clj.node.string_node.call(null,G__23477));
 });
 rewrite_clj.parser.string.parse_regex = (function rewrite_clj$parser$string$parse_regex(reader){
 var lines = rewrite_clj.parser.string.read_string_data(reader);

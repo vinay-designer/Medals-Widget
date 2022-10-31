@@ -1,7 +1,7 @@
 (ns medals.db
   (:require
-   [medals.constants :refer [COUNTRIES]]))
+   [medals.constants :as COUNTRIES]))
 
 
 (def default-db
-  {:sort :bronze :countries COUNTRIES})
+  {:sort :bronze :countries COUNTRIES/COUNTRIES})

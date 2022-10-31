@@ -1,7 +1,7 @@
 goog.provide('day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.interop');
 day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.interop.on_load = (function day8$re_frame_10x$inlined_deps$re_frame$v1v1v2$re_frame$interop$on_load(listener){
 try{return goog.events.listen(self,"load",listener);
-}catch (e15950){var _ = e15950;
+}catch (e15964){var _ = e15964;
 return null;
 }});
 day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.interop.next_tick = goog.async.nextTick;
@@ -69,18 +69,18 @@ return Date.now();
  */
 day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.interop.reagent_id = (function day8$re_frame_10x$inlined_deps$re_frame$v1v1v2$re_frame$interop$reagent_id(reactive_val){
 if((((!((reactive_val == null))))?((((false) || ((cljs.core.PROTOCOL_SENTINEL === reactive_val.day8$re_frame_10x$inlined_deps$reagent$v1v0v0$reagent$ratom$IReactiveAtom$))))?true:false):false)){
-return [(function (){var pred__15964 = cljs.core.instance_QMARK_;
-var expr__15965 = reactive_val;
-if(cljs.core.truth_((pred__15964.cljs$core$IFn$_invoke$arity$2 ? pred__15964.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RAtom,expr__15965) : pred__15964.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RAtom,expr__15965)))){
+return [(function (){var pred__15973 = cljs.core.instance_QMARK_;
+var expr__15974 = reactive_val;
+if(cljs.core.truth_((pred__15973.cljs$core$IFn$_invoke$arity$2 ? pred__15973.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RAtom,expr__15974) : pred__15973.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RAtom,expr__15974)))){
 return "ra";
 } else {
-if(cljs.core.truth_((pred__15964.cljs$core$IFn$_invoke$arity$2 ? pred__15964.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RCursor,expr__15965) : pred__15964.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RCursor,expr__15965)))){
+if(cljs.core.truth_((pred__15973.cljs$core$IFn$_invoke$arity$2 ? pred__15973.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RCursor,expr__15974) : pred__15973.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.RCursor,expr__15974)))){
 return "rc";
 } else {
-if(cljs.core.truth_((pred__15964.cljs$core$IFn$_invoke$arity$2 ? pred__15964.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Reaction,expr__15965) : pred__15964.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Reaction,expr__15965)))){
+if(cljs.core.truth_((pred__15973.cljs$core$IFn$_invoke$arity$2 ? pred__15973.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Reaction,expr__15974) : pred__15973.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Reaction,expr__15974)))){
 return "rx";
 } else {
-if(cljs.core.truth_((pred__15964.cljs$core$IFn$_invoke$arity$2 ? pred__15964.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Track,expr__15965) : pred__15964.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Track,expr__15965)))){
+if(cljs.core.truth_((pred__15973.cljs$core$IFn$_invoke$arity$2 ? pred__15973.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Track,expr__15974) : pred__15973.call(null,day8.re_frame_10x.inlined_deps.reagent.v1v0v0.reagent.ratom.Track,expr__15974)))){
 return "tr";
 } else {
 return "other";

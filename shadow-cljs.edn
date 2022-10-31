@@ -1,6 +1,7 @@
+;; shadow-cljs configuration
 {:nrepl {:port 8777}
 
- :source-paths ["src" "test"]
+ :source-paths ["src" "test/"]
  :dependencies
  [[reagent "1.1.1"]
   [re-frame "1.2.0"]
@@ -34,4 +35,8 @@
    :release
    {:build-options
     {:ns-aliases
-     {day8.re-frame.tracing day8.re-frame.tracing-stubs}}}}}}
+     {day8.re-frame.tracing day8.re-frame.tracing-stubs}}}}
+  :test {:target    :karma
+         :output-to  "out/test.js"
+         :ns-regexp  "-test$"
+         :autorun    true}}}
